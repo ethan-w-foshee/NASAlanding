@@ -1,0 +1,26 @@
+body {
+    background-color: cadetblue;
+    margin: 0;
+}
+
+.main-container {
+    border: 1px solid red;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    border: 2px solid gold;
+    font-family: 'Titillium Web', sans-serif;
+    /* height: 50%; */
+    flex: 1;
+    background-image: url('./NASAbackground.jpg');
+}
+
+section {
+    border: 2px solid limegreen;
+    /* height: 50%; */
+    font-family: 'Silkscreen', cursive;
+    flex: 1;
+}
