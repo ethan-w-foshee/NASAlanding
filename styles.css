@@ -1,26 +1,95 @@
 body {
-    background-color: cadetblue;
+    background-color: whitesmoke;
     margin: 0;
+    height: 100%;
 }
 
 .main-container {
     border: 1px solid red;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+    /* height: 100px; */
+    /* display: flex;
+    flex-direction: column; */
+    width: 850px;
+    margin: 15px auto;
 }
 
 main {
     border: 2px solid gold;
     font-family: 'Titillium Web', sans-serif;
-    /* height: 50%; */
-    flex: 1;
-    background-image: url('./NASAbackground.jpg');
+    height: 450px;
+    background-image: url('NASAbackground.jpg');
+    background-position: right;
+    background-size: auto;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+
+#NASA-title {
+    margin-top: 150px;
 }
 
 section {
+    margin: 15px 0 0 0;
     border: 2px solid limegreen;
-    /* height: 50%; */
+    height: 324px;
     font-family: 'Silkscreen', cursive;
+    display: flex;
+    flex-direction: row;
+    background-color: lightgray;
+    font-size: small;
+}
+
+.triplethreat {
+    width: 270px;
+    border: 2px purple solid;
+    margin: 0;
     flex: 1;
+}
+
+.triplethreat > h1 {
+    font-size: 25px;
+    text-align: center;
+}
+
+#social {
+    display: flex;
+    flex-direction: column;
+}
+
+#social > h1 {
+    width: 100%;
+    border: 1px black solid;
+}
+
+#social > p {
+    border: 1px white solid;
+}
+
+#info {
+    display: flex;
+    flex-direction: column;
+}
+
+#info > h1 {
+    width: 100%;
+    border: 1px black solid;
+}
+
+#info > p {
+    border: 1px white solid;
+}
+
+#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+#contact > h1 {
+    width: 100%;
+    border: 1px black solid;
+}
+
+#contact > p {
+    border: 1px white solid;
 }
