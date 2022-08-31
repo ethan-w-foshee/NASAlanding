@@ -18,8 +18,8 @@ main {
     font-family: 'Titillium Web', sans-serif;
     height: 450px;
     background-image: url('NASAbackground.jpg');
-    background-position: right;
-    background-size: auto;
+    background-position: center;
+    background-size: 100% 100%;
     color: white;
     text-align: center;
     font-size: 50px;
